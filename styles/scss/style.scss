@@ -1,0 +1,49 @@
+html,body{
+font-family: 'Blinker',;
+font-size: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 400;
+}
+
+// Ust Navbar
+  .ust-navbar{
+     
+     
+      ul{
+        float: right;
+         
+          li{
+            font-size: 1.4rem;
+             list-style: none;
+             float: left;
+             padding: 0px 10px;
+          }
+      }
+  } 
+  
+  
+  // ALT NAVBAR
+
+  .alt-navbar{
+      nav{
+          a{
+              img{
+                  width: 149px;
+              }
+          }
+      }
+  }
+
+
+
+
+
+
+
+nav{
+    font-size: 1.5rem;
+}
+
+
