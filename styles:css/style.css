@@ -7,7 +7,7 @@ html, body {
   font-weight: 400; }
 
 .pau-bg {
-  background-image: url("/assets/img/AnaSayfaBannerDeneme.jpg");
+  background: linear-gradient(0deg, rgba(0, 37, 69, 0.3), rgba(0, 37, 69, 0.3)), url("/assets/img/AnaSayfaBannerDeneme.jpg");
   background-size: cover;
   height: 500px; }
 
