@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   font-family: "Blinker";
   font-size: 10px;
   margin: 0;
@@ -7,14 +8,17 @@ html, body {
   font-weight: 400; }
 
 .pau-bg {
-  background-image: url("/assets/img/AnaSayfaBannerDeneme.jpg");
+  background: linear-gradient(0deg, rgba(0, 37, 69, 0.3), rgba(0, 37, 69, 0.3)), url("/assets/img/AnaSayfaBannerDeneme.jpg");
   background-size: cover;
+  opacity: 0.98;
   height: 500px; }
 
 .pau-shadow {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(196, 196, 196, 0) 100%); }
 
 .ust-navbar .row ul {
+  top: 23px;
+  position: relative;
   float: right; }
   .ust-navbar .row ul li {
     color: white;
@@ -28,12 +32,19 @@ html, body {
   font-weight: bold; }
   .alt-navbar nav a img {
     width: 149px; }
-.alt-navbar nav h1 {
+.alt-navbar nav div h1 {
+  letter-spacing: 1px;
   color: white;
   font-weight: bold !important;
   font-size: 24px; }
-
-nav {
-  font-size: 1.5rem; }
+.alt-navbar nav div .pau-name-hosgeldiniz {
+  font-size: 1.3rem;
+  text-align: center;
+  color: white; }
+.alt-navbar nav .pau-navbar-menu {
+  justify-content: end; }
+  .alt-navbar nav .pau-navbar-menu li {
+    list-style: none;
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */

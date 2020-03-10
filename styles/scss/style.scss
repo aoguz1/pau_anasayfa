@@ -1,76 +1,87 @@
-html,body{
-font-family: 'Blinker',;
-font-size: 10px;
+html,
+body {
+  font-family: "Blinker";
+  font-size: 10px;
   margin: 0;
   padding: 0;
   list-style: none;
   font-weight: 400;
 }
 
-.pau-bg{
-background: linear-gradient(0deg, rgba(0, 37, 69, 0.3), rgba(0, 37, 69, 0.3)), url("/assets/img/AnaSayfaBannerDeneme.jpg");
+.pau-bg {
+  background: linear-gradient(0deg, rgba(0, 37, 69, 0.3), rgba(0, 37, 69, 0.3)),
+    url("/assets/img/AnaSayfaBannerDeneme.jpg");
   background-size: cover;
+  opacity: 0.98;
   height: 500px;
- 
 }
 
-.pau-shadow{
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(196, 196, 196, 0) 100%);
-
+.pau-shadow {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
 }
-
-
 
 // Ust Navbar
-  .ust-navbar{
-     
-    .row{
+.ust-navbar {
+  .row {
+    ul {
+      top: 23px;
+      position: relative;
 
-    
-     
-      ul{
-        float: right;
-         
-          li{
-            color: white;
-            font-size: 1.4rem;
-             list-style: none;
-             float: left;
-             padding: 0px 10px;
-          }
+      float: right;
+
+      li {
+        color: white;
+        font-size: 1.4rem;
+        list-style: none;
+        float: left;
+        padding: 0px 10px;
       }
     }
-  } 
-  
-  
-  // ALT NAVBAR
-
-  .alt-navbar{
-      nav{
-          a{
-            padding-left: 10px;
-            font-weight: bold;
-              img{
-                  width: 149px;
-              }
-          }
-
-         h1{
-           color: white;
-           font-weight: bold !important;
-           font-size: 24px;
-         }
-      }
   }
+}
 
+// ALT NAVBAR
 
+.alt-navbar {
+  nav {
+    a {
+      padding-left: 10px;
+      font-weight: bold;
+      img {
+        width: 149px;
+      }
+    }
+    div {
+      
+      h1 {
+        letter-spacing: 1px;
+        color: white;
+        font-weight: bold !important;
+        font-size: 24px;
+      }
+      .pau-name-hosgeldiniz{
+        font-size: 1.3rem;
+        text-align: center;
+        color: white;
+      }
+    }
 
+    .pau-navbar-menu{
+      display: flex;
+      justify-content: end;
+      
+     justify-content: end; 
+      li{
+        list-style: none;
+        color: white;
+      }
+    }
 
-
-
-
-nav{
-    font-size: 1.5rem;
+  }
 }
 
 

@@ -1,3 +1,6 @@
+<?php 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,44 +43,51 @@
     </div>
   
 
+    
+
     <div class="alt-navbar">
       
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">
               <img src="assets/img/pau_logo.png" alt=""> 
               </a>
-              <h1>PAMUKKALE Üniversitesi</h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+
+              <div>
+                <h1>PAMUKKALE Üniversitesi</h1>
+              
+                <div class="pau-name-hosgeldiniz">hoşgeldiniz</div>
+              </div>
+              
+              
+              <ul class="pau-navbar-menu">
+                <li>
+                  <h2>Genel Bilgiler</h2>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                <li>
+                  <h2>Genel Bilgiler</h2>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
+                <li>
+                  <h2>Genel Bilgiler</h2>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <li>
+                  <h2>Genel Bilgiler</h2>
+                </li>
+                <li>
+                  <h2>Genel Bilgiler</h2>
+                </li>
+                <li>
+                  <h2>Genel Bilgiler</h2>
                 </li>
               </ul>
-             
-            </div>
+
+              
+            
+            
+            
           </nav>
-     
+          
+
+
     </div>
 
     
@@ -91,3 +101,6 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </html>
+
+
+?>
